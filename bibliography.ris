@@ -1,0 +1,206 @@
+TY  - JOUR
+ID  - J1
+TI  - Woodpecker: hallucination correction for multimodal large language models
+AU  - Yin, Shukang
+AU  - Fu, Chaoyou
+AU  - Zhao, Sirui
+AU  - Xu, Tong
+AU  - Wang, Hao
+AU  - Sui, Dianbo
+AU  - Shen, Yunhang
+AU  - Li, Ke
+AU  - Sun, Xing
+AU  - Chen, Enhong
+PY  - 2024
+JO  - Science China Information Sciences
+VL  - 67
+IS  - 12
+M1  - 220105
+DO  - 10.1007/s11432-024-4251-x
+UR  - https://link.springer.com/article/10.1007/s11432-024-4251-x
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - JOUR
+ID  - J2
+TI  - A survey on multimodal large language models
+AU  - Yin, Shukang
+AU  - Fu, Chaoyou
+AU  - Zhao, Sirui
+AU  - Li, Ke
+AU  - Sun, Xing
+AU  - Xu, Tong
+AU  - Chen, Enhong
+PY  - 2024
+JO  - National Science Review
+VL  - 11
+IS  - 12
+M1  - nwae403
+DO  - 10.1093/nsr/nwae403
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11645129/
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - JOUR
+ID  - J3
+TI  - A survey on large language model based autonomous agents
+AU  - Wang, Lei
+AU  - Ma, Chen
+AU  - Feng, Xueyang
+AU  - Zhang, Zeyu
+AU  - Yang, Hao
+AU  - Zhang, Jingsen
+AU  - Chen, Zhiyuan
+AU  - Tang, Jiakai
+AU  - Chen, Xu
+AU  - Lin, Yankai
+AU  - Zhao, Wayne Xin
+AU  - Wei, Zhewei
+AU  - Wen, Jirong
+PY  - 2024
+JO  - Frontiers of Computer Science
+VL  - 18
+IS  - 6
+M1  - 186345
+DO  - 10.1007/s11704-024-40231-1
+UR  - https://link.springer.com/article/10.1007/s11704-024-40231-1
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - JOUR
+ID  - J4
+TI  - LLM-Based Agents for Tool Learning: A Survey
+AU  - Xu, Weikai
+AU  - Huang, Chengrui
+AU  - Gao, Shen
+AU  - Shang, Shuo
+PY  - 2025
+JO  - Data Science and Engineering
+VL  - 10
+DO  - 10.1007/s41019-025-00296-9
+UR  - https://link.springer.com/article/10.1007/s41019-025-00296-9
+SP  - 533
+EP  - 563
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - JOUR
+ID  - J5
+TI  - Understanding Hallucinations in Large Visual and Language Models
+AU  - Ho, Zheng Yi
+AU  - Liang, Siyuan
+AU  - Tao, Dacheng
+PY  - 2026
+JO  - ACM Computing Surveys
+VL  - 58
+IS  - 13
+M1  - 332
+DO  - 10.1145/3811409
+UR  - https://doi.org/10.1145/3811409
+SP  - 1
+EP  - 36
+N1  - Formal metadata and indexed excerpts checked; full-body reading used a separately cited related author preprint, not the formal final.
+ER  - 
+
+TY  - CONF
+ID  - C1
+TI  - Evaluating Object Hallucination in Large Vision-Language Models
+AU  - Li, Yifan
+AU  - Du, Yifan
+AU  - Zhou, Kun
+AU  - Wang, Jinpeng
+AU  - Zhao, Wayne Xin
+AU  - Wen, Ji-Rong
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+DO  - 10.18653/v1/2023.emnlp-main.20
+UR  - https://aclanthology.org/2023.emnlp-main.20/
+SP  - 292
+EP  - 305
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - CONF
+ID  - C2
+TI  - HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models
+AU  - Guan, Tianrui
+AU  - Liu, Fuxiao
+AU  - Wu, Xiyang
+AU  - Xian, Ruiqi
+AU  - Li, Zongxia
+AU  - Liu, Xiaoyu
+AU  - Wang, Xijun
+AU  - Chen, Lichang
+AU  - Huang, Furong
+AU  - Yacoob, Yaser
+AU  - Manocha, Dinesh
+AU  - Zhou, Tianyi
+PY  - 2024
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html
+SP  - 14375
+EP  - 14385
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - CONF
+ID  - C3
+TI  - Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding
+AU  - Leng, Sicong
+AU  - Zhang, Hang
+AU  - Chen, Guanzheng
+AU  - Li, Xin
+AU  - Lu, Shijian
+AU  - Miao, Chunyan
+AU  - Bing, Lidong
+PY  - 2024
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Leng_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_through_Visual_Contrastive_CVPR_2024_paper.html
+SP  - 13872
+EP  - 13882
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - CONF
+ID  - C4
+TI  - ViperGPT: Visual Inference via Python Execution for Reasoning
+AU  - Surís, Dídac
+AU  - Menon, Sachit
+AU  - Vondrick, Carl
+PY  - 2023
+T2  - Proceedings of the IEEE/CVF International Conference on Computer Vision
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Suris_ViperGPT_Visual_Inference_via_Python_Execution_for_Reasoning_ICCV_2023_paper.html
+SP  - 11888
+EP  - 11898
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - CONF
+ID  - C5
+TI  - Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling
+AU  - Wu, Tsung-Han
+AU  - Lee, Heekyung
+AU  - Ge, Jiaxin
+AU  - Gonzalez, Joseph E.
+AU  - Darrell, Trevor
+AU  - Chan, David M.
+PY  - 2025
+T2  - Advances in Neural Information Processing Systems
+VL  - 38
+DO  - 10.52202/085713-2206
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/5eff08bd064f0cdd92182cdf6fd06b99-Abstract-Conference.html
+N1  - Verified literature record; Chinese summary is a paraphrase. Formal main-body reading completed in prior reading pass.
+ER  - 
+
+TY  - UNPB
+ID  - J5_PREPRINT
+TI  - Review of Hallucination Understanding in Large Language and Vision Models
+AU  - Ho, Zhengyi
+AU  - Liang, Siyuan
+AU  - Tao, Dacheng
+PY  - 2025
+T2  - arXiv
+DO  - 10.48550/arXiv.2510.00034
+UR  - https://arxiv.org/abs/2510.00034v1
+N1  - Related author preprint used for full-body reading of target J5; not presumed identical to the 2026 formal final and not counted as an eleventh target paper.
+ER  - 

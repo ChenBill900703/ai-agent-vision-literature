@@ -1,0 +1,456 @@
+{
+  "updated": "2026-11-07",
+  "timezone": "Asia/Taipei",
+  "scope": {
+    "years": [
+      2022,
+      2026
+    ],
+    "target_papers": 10,
+    "journal_articles": 5,
+    "conference_papers": 5,
+    "formal_main_bodies_deep_read": 9,
+    "related_preprint_main_bodies_deep_read": 1,
+    "citation_counts_verified": 3,
+    "review_mode": "representative-paper discovery and verification; not systematic"
+  },
+  "papers": [
+    {
+      "id": "J1",
+      "type": "JOUR",
+      "title": "Woodpecker: hallucination correction for multimodal large language models",
+      "authors": [
+        "Yin, Shukang",
+        "Fu, Chaoyou",
+        "Zhao, Sirui",
+        "Xu, Tong",
+        "Wang, Hao",
+        "Sui, Dianbo",
+        "Shen, Yunhang",
+        "Li, Ke",
+        "Sun, Xing",
+        "Chen, Enhong"
+      ],
+      "year": 2024,
+      "venue": "Science China Information Sciences",
+      "volume": "67",
+      "issue": "12",
+      "article": "220105",
+      "doi": "10.1007/s11432-024-4251-x",
+      "url": "https://link.springer.com/article/10.1007/s11432-024-4251-x",
+      "kind": "原創方法",
+      "citation_snapshot": {
+        "count": 210,
+        "source": "Springer Nature article page Citations",
+        "checked_date": "2026-11-07",
+        "source_url": "https://link.springer.com/article/10.1007/s11432-024-4251-x",
+        "status": "verified_page_snapshot",
+        "not_google_scholar": true
+      },
+      "importance_basis": "直接研究外部視覺核驗與回答修正；引用數可查。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://www.sciengine.com/parse/pdf/1674-733X/1C1C4934294B4349B90D92A376E027F1.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          11
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#j1"
+    },
+    {
+      "id": "J2",
+      "type": "JOUR",
+      "title": "A survey on multimodal large language models",
+      "authors": [
+        "Yin, Shukang",
+        "Fu, Chaoyou",
+        "Zhao, Sirui",
+        "Li, Ke",
+        "Sun, Xing",
+        "Xu, Tong",
+        "Chen, Enhong"
+      ],
+      "year": 2024,
+      "venue": "National Science Review",
+      "volume": "11",
+      "issue": "12",
+      "article": "nwae403",
+      "doi": "10.1093/nsr/nwae403",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645129/",
+      "kind": "綜述",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "正式綜述涵蓋多模態模型架構、訓練、資料與評估。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645129/",
+        "source_version": "FINAL",
+        "pdf_page_range": null,
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges.",
+        "html_scope": "Abstract through conclusion in formal PMC full text."
+      },
+      "notes_link": "paper_notes.md#j2"
+    },
+    {
+      "id": "J3",
+      "type": "JOUR",
+      "title": "A survey on large language model based autonomous agents",
+      "authors": [
+        "Wang, Lei",
+        "Ma, Chen",
+        "Feng, Xueyang",
+        "Zhang, Zeyu",
+        "Yang, Hao",
+        "Zhang, Jingsen",
+        "Chen, Zhiyuan",
+        "Tang, Jiakai",
+        "Chen, Xu",
+        "Lin, Yankai",
+        "Zhao, Wayne Xin",
+        "Wei, Zhewei",
+        "Wen, Jirong"
+      ],
+      "year": 2024,
+      "venue": "Frontiers of Computer Science",
+      "volume": "18",
+      "issue": "6",
+      "article": "186345",
+      "doi": "10.1007/s11704-024-40231-1",
+      "url": "https://link.springer.com/article/10.1007/s11704-024-40231-1",
+      "kind": "綜述",
+      "citation_snapshot": {
+        "count": 2516,
+        "source": "Springer Nature article page Citations",
+        "checked_date": "2026-11-07",
+        "source_url": "https://link.springer.com/article/10.1007/s11704-024-40231-1",
+        "status": "verified_page_snapshot",
+        "not_google_scholar": true
+      },
+      "importance_basis": "提供自主Agent架構、能力取得與評估分類；引用數可查。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          20
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#j3"
+    },
+    {
+      "id": "J4",
+      "type": "JOUR",
+      "title": "LLM-Based Agents for Tool Learning: A Survey",
+      "authors": [
+        "Xu, Weikai",
+        "Huang, Chengrui",
+        "Gao, Shen",
+        "Shang, Shuo"
+      ],
+      "year": 2025,
+      "venue": "Data Science and Engineering",
+      "volume": "10",
+      "pages": "533-563",
+      "doi": "10.1007/s41019-025-00296-9",
+      "url": "https://link.springer.com/article/10.1007/s41019-025-00296-9",
+      "kind": "綜述",
+      "citation_snapshot": {
+        "count": 84,
+        "source": "Springer Nature article page Citations",
+        "checked_date": "2026-11-07",
+        "source_url": "https://link.springer.com/article/10.1007/s41019-025-00296-9",
+        "status": "verified_page_snapshot",
+        "not_google_scholar": true
+      },
+      "importance_basis": "工具學習綜述直接討論工具必要性、選擇與使用；引用數可查。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://link.springer.com/content/pdf/10.1007/s41019-025-00296-9.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          26
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#j4"
+    },
+    {
+      "id": "J5",
+      "type": "JOUR",
+      "title": "Understanding Hallucinations in Large Visual and Language Models",
+      "authors": [
+        "Ho, Zheng Yi",
+        "Liang, Siyuan",
+        "Tao, Dacheng"
+      ],
+      "year": 2026,
+      "venue": "ACM Computing Surveys",
+      "volume": "58",
+      "issue": "13",
+      "article": "332",
+      "pages": "1-36",
+      "doi": "10.1145/3811409",
+      "url": "https://doi.org/10.1145/3811409",
+      "kind": "綜述",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "2026正式綜述聚焦幻覺成因；完整正式版閱讀仍待補齊。",
+      "reading": {
+        "main_body_status": "PREPRINT_ONLY_PROVISIONAL",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://arxiv.org/pdf/2510.00034v1",
+        "source_version": "PREPRINT_DIFFERENT_TITLE",
+        "pdf_page_range": [
+          1,
+          24
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges.",
+        "actual_title": "Review of Hallucination Understanding in Large Language and Vision Models",
+        "actual_version": "arXiv:2510.00034v1, 2025-09-26",
+        "formal_version_update_2026_11_07": "Official publisher indexed metadata, abstract and selected sections checked. Direct DOI returned 403. Full final version not deep-read."
+      },
+      "notes_link": "paper_notes.md#j5"
+    },
+    {
+      "id": "C1",
+      "type": "CONF",
+      "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+      "authors": [
+        "Li, Yifan",
+        "Du, Yifan",
+        "Zhou, Kun",
+        "Wang, Jinpeng",
+        "Zhao, Wayne Xin",
+        "Wen, Ji-Rong"
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "pages": "292-305",
+      "doi": "10.18653/v1/2023.emnlp-main.20",
+      "url": "https://aclanthology.org/2023.emnlp-main.20/",
+      "kind": "評測基準（POPE）",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "被Woodpecker、VCD與REVERSE採用作評估或分析基準。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://aclanthology.org/2023.emnlp-main.20.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          9
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#c1"
+    },
+    {
+      "id": "C2",
+      "type": "CONF",
+      "title": "HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+      "authors": [
+        "Guan, Tianrui",
+        "Liu, Fuxiao",
+        "Wu, Xiyang",
+        "Xian, Ruiqi",
+        "Li, Zongxia",
+        "Liu, Xiaoyu",
+        "Wang, Xijun",
+        "Chen, Lichang",
+        "Huang, Furong",
+        "Yacoob, Yaser",
+        "Manocha, Dinesh",
+        "Zhou, Tianyi"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "pages": "14375-14385",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.html",
+      "kind": "評測基準",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "提供原圖／修改圖等控制組及整組一致性診斷。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Guan_HallusionBench_An_Advanced_Diagnostic_Suite_for_Entangled_Language_Hallucination_and_CVPR_2024_paper.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          8
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#c2"
+    },
+    {
+      "id": "C3",
+      "type": "CONF",
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding",
+      "authors": [
+        "Leng, Sicong",
+        "Zhang, Hang",
+        "Chen, Guanzheng",
+        "Li, Xin",
+        "Lu, Shijian",
+        "Miao, Chunyan",
+        "Bing, Lidong"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "pages": "13872-13882",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Leng_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_through_Visual_Contrastive_CVPR_2024_paper.html",
+      "kind": "原創方法（VCD）",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "與Woodpecker、REVERSE形成既有減幻覺方法比較關係。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Leng_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_through_Visual_Contrastive_CVPR_2024_paper.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          8
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#c3"
+    },
+    {
+      "id": "C4",
+      "type": "CONF",
+      "title": "ViperGPT: Visual Inference via Python Execution for Reasoning",
+      "authors": [
+        "Surís, Dídac",
+        "Menon, Sachit",
+        "Vondrick, Carl"
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "pages": "11888-11898",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Suris_ViperGPT_Visual_Inference_via_Python_Execution_for_Reasoning_ICCV_2023_paper.html",
+      "kind": "原創系統",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "自主Agent綜述將它列入外部模型／工具的相關工作。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Suris_ViperGPT_Visual_Inference_via_Python_Execution_for_Reasoning_ICCV_2023_paper.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          8
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#c4"
+    },
+    {
+      "id": "C5",
+      "type": "CONF",
+      "title": "Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling",
+      "authors": [
+        "Wu, Tsung-Han",
+        "Lee, Heekyung",
+        "Ge, Jiaxin",
+        "Gonzalez, Joseph E.",
+        "Darrell, Trevor",
+        "Chan, David M."
+      ],
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "38",
+      "doi": "10.52202/085713-2206",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5eff08bd064f0cdd92182cdf6fd06b99-Abstract-Conference.html",
+      "kind": "原創方法（REVERSE）",
+      "citation_snapshot": {
+        "count": null,
+        "source": null,
+        "checked_date": "2026-11-07",
+        "source_url": null,
+        "status": "not_verified",
+        "not_google_scholar": true
+      },
+      "importance_basis": "2025正式方法結合訓練、自我驗證與回溯，並呈現判別任務限制。",
+      "reading": {
+        "main_body_status": "FINAL_MAIN_BODY_REVIEWED",
+        "main_body_read_dates": "2026-11-03 to 2026-11-04",
+        "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5eff08bd064f0cdd92182cdf6fd06b99-Paper-Conference.pdf",
+        "source_version": "FINAL",
+        "pdf_page_range": [
+          1,
+          10
+        ],
+        "supplement_note": "See sources_and_checks.md for actual selected reading ranges."
+      },
+      "notes_link": "paper_notes.md#c5"
+    }
+  ],
+  "additional_reading_sources": [
+    {
+      "id": "J5_PREPRINT",
+      "type": "UNPB",
+      "title": "Review of Hallucination Understanding in Large Language and Vision Models",
+      "authors": [
+        "Ho, Zhengyi",
+        "Liang, Siyuan",
+        "Tao, Dacheng"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": "10.48550/arXiv.2510.00034",
+      "url": "https://arxiv.org/abs/2510.00034v1",
+      "version": "v1, 2025-09-26",
+      "note": "Related author preprint used for full-body reading of target J5; not presumed identical to the 2026 formal final and not counted as an eleventh target paper."
+    }
+  ]
+}

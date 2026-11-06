@@ -1,0 +1,106 @@
+{
+  "spec_version": "1.0",
+  "spec_date": "2026-10-30",
+  "status": "SPECIFIED_NOT_EXECUTED",
+  "baseline_id": "B0",
+  "reference_baseline_id": "H0",
+  "mode": "COMPUTATIONAL_AI",
+  "scope": {
+    "dataset": "Official COCO POPE fixed question files",
+    "image_count_reference": 500,
+    "question_groups": [
+      "random",
+      "popular",
+      "adversarial"
+    ],
+    "question_rows_per_group": 3000,
+    "total_question_rows": 9000,
+    "new_data_collection": 0,
+    "new_ground_truth_annotation": 0,
+    "training": false,
+    "model_count": 1,
+    "custom_judge": false
+  },
+  "sources": {
+    "user_repository_commit": "6b94c0dfa8fbb1d14e3bc20a73cf91b14a654d3a",
+    "pope_commit": "08d957b917e5a378a2f99d35b6293c536a66298b",
+    "questions_sha256": {
+      "random": "382f8d2ef54713d68480304a702809a6eecce95c249e0ee36631ae73427d62c5",
+      "popular": "72c1a8ad45d0c13514f5f22598261df41d3b533854d29682e924db50ed8aa753",
+      "adversarial": "420b3407db1fa9f1187a805dca41cb7b97fd91504e6c2179706188c107fb8ef8"
+    },
+    "model": "OpenGVLab/InternVL3-2B",
+    "model_revision": "899155015275a9b7338c7f4677e19c784e0e5a21"
+  },
+  "reference_inference_settings": {
+    "dtype": "bfloat16",
+    "quantization": null,
+    "flash_attention": false,
+    "batch_size": 1,
+    "seed": 0,
+    "image_size": 448,
+    "max_num": 12,
+    "use_thumbnail": true,
+    "history": null,
+    "prompt": "<image>\n{official_question_text}",
+    "generation": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens": 1024
+    },
+    "python": "3.12.14",
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "transformers": "4.52.1"
+  },
+  "evaluation": {
+    "parser": "Exact official POPE rule as retained in pinned scripts/run_pope.py; no new judge.",
+    "primary": "Unweighted mean of F1 across the three groups, with each group always reported separately.",
+    "secondary": [
+      "accuracy",
+      "precision",
+      "recall",
+      "yes_ratio",
+      "false_positive_count"
+    ],
+    "paired_comparison_unit": "image; retain associated questions together",
+    "historical_aggregate_macro_f1": 0.8822561311604667
+  },
+  "execution_policy": {
+    "historical_H0": "Reference only; preserve shorter-cap/EOS provenance.",
+    "future_B0": "Fresh inference if raw-record compatibility cannot be verified; use one uniform 1024-token cap and separate run ID. No automatic historical migration.",
+    "historical_answer_reuse": "Only after image/question hashes, model, template, inference settings, EOS and provenance are verified; timing requires separate measurement.",
+    "hardware_fit": "NOT_VERIFIED; reference settings do not assert fit on current target machine.",
+    "wall_time_estimate": null
+  },
+  "change_budget": {
+    "candidate_method_slots": 1,
+    "max_formal_method_conditions": 3,
+    "pilot_method_versions": 2,
+    "control_rule": "A necessary control must not be dropped to meet the cap. If the claim needs more conditions, narrow the claim or revise the scope.",
+    "candidate_method": "NOT_SELECTED; only a fixed one-step change may enter the initial feasibility check.",
+    "scope_expansion": "No automatic expansion to new datasets, models, training, multi-round agents or custom annotation."
+  },
+  "development_boundary": {
+    "policy": "Before new method tuning, group questions by image and record a deterministic development/evaluation split. Historical full-set exposure must be disclosed.",
+    "development_images": 50,
+    "evaluation_images": 450,
+    "assignment": "Sort official image filenames and split with fixed seed 0; generate and retain manifest before method tuning.",
+    "manifest_status": "NOT_CREATED_DATA_NOT_ACCESSED",
+    "reporting": "Recompute B0 per subset; historical full-500 H0 metrics cannot be used as the 450-image comparator.",
+    "independence_caveat": "A prospective split of previously inspected benchmark data is not a never-seen external test."
+  },
+  "schedule": {
+    "feasibility_checkpoint": "2026-11-13",
+    "experiment_scope_freeze": "2026-12-15",
+    "full_draft_target": "2027-01-15",
+    "submission_ready_target": "2027-01-31",
+    "user_submission_month": "2027-02",
+    "conference_exact_deadline": null
+  },
+  "stopping": {
+    "engineering": "After two documented pilot versions or at the feasibility checkpoint, stop adding modules if the baseline or candidate is unstable.",
+    "scientific": "Freeze choices before evaluation; keep null and negative outcomes. Do not repeatedly tune against final evaluation results.",
+    "resource": "No GPU run or paid resource authorized by this planning artifact."
+  }
+}
